@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Chettan 2", cursive;
+
+}
+body{
+    background: bisque;
+}
+header{
+    width: 100vw;
+    height: 450px;
+    background: url("anhvct.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content:  "";
+    display: block;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#text1{
+    font-size: 60px;
+    color: green;
+}
+#text2{
+    color: black;
+    font-size: 40px;
+}
+.List{
+    position: relative;
+    top: 30px;
+    border: 2px solid azure;
+    height: 750px;
+    width: 1200px;
+    left: 30px;
+    background-color: azure;
+    border-radius: 10px;
+}
+#text3{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    font-size: 25px;
+}
+#Anh{
+    background: url(nglmbanh.PNG) no-repeat;
+    width: 400px;
+    height: 240px;
+    position: absolute;
+    top: 100px;
+    border: 2px solid firebrick;
+    left: 30px;
+    border-radius: 10px
+}
+#text4{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    font-size: 20px;
+}
+#text5{
+    position: absolute;
+    top: 240px;
+    left: 450px;
+    font-size: 20px;
+}
+#Anh1{
+    background: url(phonglmvc.PNG) no-repeat;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 670px;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+}
+#text6{
+    position: absolute;
+    border: 2px solid double;
+    width: 660px;
+    top: 390px;
+    left: 8px;
+    font-size: 20px;
+}
+#text7{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    font-size: 20px;
+}
+#text8{
+    position: absolute;
+    border: 2px solid double;
+    width: 660px;
+    top: 590px;
+    left: 8px;
+    font-size: 20px;
+}
+
+.List1{
+    position: relative;
+    top: 55px;
+    left: 30px;
+    border: 2px solid ghostwhite;
+    width: 1200px;
+    height: 530px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+}
+#text9{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    font-size: 25px;
+    color: coral;
+
+}
+#Anh2{
+    background: url(NDLN.PNG);
+    width: 200px;
+    height: 237px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+#Anh3{
+    background: url(LVD.PNG);
+    width: 200px;
+    height: 237px;
+    border-radius: 50%;
+    position: relative;
+    top: -150px;
+    left: 500px;
+}
+#Anh4{
+    background: url(kopohome.PNG) no-repeat;
+    height: 235px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -380px;
+    left: 880px;
+}
+.Text{
+    position: absolute;
+    top: 350px;
+    border: 2px solid aliceblue;
+    width: 1160px;
+    left: 20px;
+}
+.List2{
+    position: relative;
+    border: 2px solid azure;
+    top: 90px;
+    width: 1200px;
+    left: 30px;
+    height: 620px;
+    border-radius: 10px;
+    background: azure;
+}
+#text10{
+    position: relative;
+    top: 20px;
+    left: 435px;
+    font-size: 25px;
+    color: burlywood;
+}
+#Anhbt{
+    background: url("Nvien.PNG") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+#Anhbt1{
+    background: url("Nvien6.PNG") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+.conect{
+    position: relative;
+    top: 50px;
+    left: 375px;
+}
+
+#Anh5{
+    background: url("Nvien5.PNG") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+#Anh6{
+    background: url("Nvien1.PNG") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+#Anh7{
+    background: url("Nvien2.PNG") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+#Anh8{
+    background: url("Nvien3.PNG") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+#Anh9{
+    background: url("Nvien4.PNG") no-repeat;
+    width: 200px;
+    height: 200px;
+}
+.table{
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+.Top{
+    position: relative;
+    border: 2px solid aliceblue;
+    top: 120px;
+    left: 30px;
+    width: 1200px;
+    border-radius: 10px;
+    height: 700px;
+    background: aliceblue;
+}
+#text11{
+    position: relative;
+    top: 20px;
+    left: 500px;
+    font-size: 25px;
+    color: blue;
+}
+#Giay{
+    background: url(chungnhan.PNG) no-repeat;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+.thongtin{
+    position: relative;
+    color: white;
+}
+#thongtin1{
+    width: 1265px;
+    height:500px;
+    background: url("Anh2.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#thongtin1::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content:  "";
+    display: block;
+    background: rgba(0, 0, 0, 0.2);
+}
+#thongtin2{
+    position: relative;
+    top: -300px;
+    width: 25%;
+    text-align: center;
+    font-size: 25px;
+}
+#tt2{
+    border: 2px solid;
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    left: 56px;
+    border-radius: 20px;
+    background: darkcyan;
+    color: burlywood;
+}
+#icon{
+    background: url(iconnha.PNG) no-repeat;
+    width: 26px;
+    height: 30px;
+    position: relative;
+    top: 130px;
+    left: 7px;
+}
+#diachi{
+    position: absolute;
+    font-size: 18px;
+    top: 125px;
+    left: 44px;
+    border: 0px solid;
+    width: 300px;
+}
+#icon1{
+    background: url(icondt.PNG) no-repeat;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 160px;
+    left: 5px;
+
+}
+#sdt{
+    position: absolute;
+    font-size: 18px;
+    top: 190px;
+    left: 50px;
+}
+#icon2{
+    background: url(iconlathu.PNG) no-repeat;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 185px;
+    left: 5px;
+}
+#email{
+    position: absolute;
+    font-size: 18px;
+    top: 250px;
+    left: 50px;
+}
+a:hover{
+    background: transparent;
+    color:#fbbc01;
+    cursor: pointer;
+}
+#thongtin3{
+    position: absolute;
+    top: 222px;
+    width: 25%;
+    left: 360px;
+}
+h1{
+    position: absolute;
+    left: 40px;
+}
+li{
+    position: relative;
+    height: 35px;
+    font-size: 18px;
+    list-style: none;
+}
+li:hover{
+    background: transparent;
+    color:#fbbc01;
+    cursor: pointer;
+}
+#thongtin4{
+    position: absolute;
+    top: 226px;
+    width: 25%;
+    left: 677px;
+}
+#tt4{
+    position: absolute;
+    font-size: 25px;
+}
+#tt{
+    position: absolute;
+    top: 65px;
+    font-size: 18px;
+}
+input{
+        position: absolute;
+    top: 275px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 15px;
+    width: 80%;
+    background: border-box;
+    border: 0px;
+    border-bottom: 1px solid burlywood;
+     outline: 0px;
+    color: white;
+}
+button{
+    position: relative;
+    top: 290px;
+    left: 270px;
+    background: cornflowerblue;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+
+}
+button:hover{
+    background: darkcyan;
+    color:#fbbc01;
+    cursor: pointer;
+}
+#thongtin5{
+    position: relative;
+    top: -300px;
+    width: 25%;
+    left: 960px;
+}
+#tt5{
+    position: absolute;
+    border: 0px solid;
+    width: 260px;
+    left: 42px;
+
+}
+

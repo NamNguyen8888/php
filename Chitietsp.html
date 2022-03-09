@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="Chitietsp.css">
+   <script>
+        var products=[];
+         function Tinh(){
+            var x={};
+            x.sl=document.getElementById("sl").value;
+            x.tt=document.getElementById("tt").innerText= Number(x.sl)* Number(89000);
+            products.push(x);
+            //tạo thẻ điv vào đưa vào thẻ body
+            var iDiv=document.createElement("div");
+            iDiv.id=products.length;
+            document.getElementsByTagName("body")[0].appendChild(iDiv);
+            var element=document.getElementById(products.length);       
+        }
+    </script>
+</head>
+<body>
+    <div id="Anh1"></div>
+    <div class="Text">
+        <div id="Text1">Pound cake</div>
+        <div id="Text2">Mã sản phẩm: PH0045</div>
+        <hr  >      
+        <div id="text3">Giá: 89000đ</div>     
+        <div id="Soluong">
+            Số lượng: <input type="number" id="sl"/>
+        </div>
+        <button id="btn" onclick="Tinh()">Thành tiền</button>
+        <div id="thanhtoan">
+            Thành tiền:  <label id="tt"></label> VNĐ
+        </div>
+        <button id="btn1">Thêm vào giỏ hàng</button>
+        <button id="btn2">Đặt hàng</button>
+    </div>
+    <div class="Text1">
+        <h1>MÔ TẢ</h1>
+        <ul>
+            <li>- Thành phần chính của bánh: bột mì, bột khoai tây, đường bột, bơ, trứng gà, whipping, vani, nho khô và một số thành phần khác</li>
+            <li>- Pound Cake chắc, mịn, mềm ẩm cắn miếng bánh cảm giác mềm mượt tan trong miệng. </li>
+            <li>- Pound Cake là dạng bánh trứng nướng Cupcake, vị thơm ngon, ngọt dịu tự nhiên. Thơm ngon khó cưỡng. </li> 
+            <li>Bảo quản: </li>
+            <li>-Bào quản nơi khô ráo, thoáng mát, tránh ánh nắng mặt trời chiếu trực tiếp vào sản phẩm.</li>
+            <li>Hạn sử dụng:</li>
+            <li>HSD: 10 ngày kể từ ngày sản xuất</li>
+        </ul>
+    </div>
+        
+        
+</body>
+</html>

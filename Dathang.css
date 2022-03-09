@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Chettan 2", cursive;
+
+}
+#Anh1{
+    background: url(cheesecake.PNG) no-repeat;
+    width: 475px;
+    height: 360px;
+    border-radius: 80px;
+    position: relative; 
+    top: 75px;
+    left: 45px;
+}
+body{
+    background: bisque;
+    width: 600px;
+    height: 600px;
+}
+.Text{
+    position: relative;
+    border: 2px solid ivory;
+    width: 605px;
+    height: 510px;
+    left: 610px;
+    top: -330px;
+    border-radius: 20px;
+    background: ivory;
+}
+#Text1{
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    font-size: 30px;
+    color: crimson;
+}
+#Text2{
+    position: absolute;
+    top: 65px;
+    left: 210px;
+}
+hr{
+    position: relative;
+    top: 90px;
+    width: 200px;
+    left: 195px;
+    background: aqua;
+}
+#text3{
+    position: absolute;
+    top: 120px;
+    font-size: 20px;
+    color: brown;
+    left: 30px;
+}
+#Soluong{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+#btn{
+    position: absolute;
+    top: 162px;
+    left: 358px;
+    width: 85px;
+    height: 30px;
+    background: cornflowerblue;
+    border: 1px;
+    border-radius: 10px;
+}
+#thanhtien{
+    position: absolute;
+    top: 215px;
+    left: 30px;
+    font-size: 20px;
+}
+
+#btn2{
+    position: absolute;
+    top: 443px;
+    left: 440px;
+    width: 128px;
+    height: 36px;
+    background: palevioletred;
+    border-radius: 10px;
+}
+#btn:hover{
+    background: transparent;
+    color: orchid;
+    border: 2px solid orchid;
+    cursor: pointer;
+}
+
+#btn2:hover{
+    background: transparent;
+    color: red;
+    border: 2px solid orchid;
+    cursor: pointer;
+}
+.Text1{
+    position: relative;
+    top: -350px;
+    border: 2px solid aliceblue;
+    width: 1200px;
+    left: 30px;
+    height: 290px;
+    border-radius: 20px;
+    background: aliceblue;
+}
+#text4{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 20px;
+    color: blueviolet;
+}
+#diachi{
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    font-size: 20px;
+}
+#thanhtoan{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    font-size: 20px;
+}
+#title{
+    position: absolute;
+    height: 40px;
+    width: 340px;
+    left: 80px;
+}
+.form-radio{
+    position: absolute;
+    top: 340px;
+    left: 30px;
+    font-size: 20px;
+}

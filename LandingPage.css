@@ -1,0 +1,476 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    font-family: Tahoma;
+
+
+}
+
+p {
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.container {
+    height: 100%;
+    width: 960px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*slider*/
+#slide_sec {
+    width: 100%;
+    height: 618px;
+    min-width: 768px;
+    display: block;
+    background-image: url("https://static.ladipage.net/s1440x800/57b167c9ca57d39c18a1c57c/ad.jpg");
+    background-color: rgba(255, 255, 255, 0);
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.header_slide_1 {
+    position: absolute;
+    z-index: 1;
+    top: 101px;
+    left: 161px;
+    padding: 0px;
+    width: 657px;
+    height: 132px;
+
+}
+
+.header_slide_1 h2 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 66px;
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    min-height: 35px;
+    margin: 0;
+}
+
+.header_slide_2 {
+    position: absolute;
+    top: 252px;
+    left: 115px;
+    padding: 0px;
+    width: 729px;
+    height: 30px;
+}
+
+.header_slide_2 h3 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.time_box {
+    position: absolute;
+    top: 328px;
+    left: 226px;
+    width: 519px;
+    height: 148px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.time_box h2 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 66px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+#button {
+    position: absolute;
+    top: 536px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0px;
+    width: 239px;
+    height: 59px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #1e90ff;
+}
+
+#button span {
+    background-color: #1e90ff;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 59px;
+    box-shadow: 0px 0px 0px rgb(94 94 94);
+    vertical-align: middle;
+}
+
+/*Kết thúc slide 1*/
+/*section 1*/
+#section_1 {
+    margin-top: 100px;
+    height: 250px;
+}
+
+.sec_1_child {
+    float: left;
+    width: 200px;
+    height: 252px;
+    margin-right: 53px;
+}
+
+.sec_1_child img {
+    width: 103px;
+}
+
+.sec_1_child:last-child {
+    margin-right: 0;
+}
+
+/*hết sec 1*/
+/*sec2*/
+.head_line_1 {
+    font-size: 18px;
+}
+
+.head_line_1 hr {
+    border: 1px solid #03a9f4;
+    width: 214px;
+}
+
+.head_line_2 {
+    font-size: 14px;
+}
+
+.content_header {
+    width: 100%;
+    height: 58px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    display: inline-flex;
+    margin: 50px 0;
+}
+
+.content_logo {
+    width: 10%;
+    line-height: 78px;
+}
+
+.content_01 h6 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
+    font-weight: normal;
+
+}
+
+.content_date {
+    width: 20%;
+}
+
+.content_date h2 {
+    font-style: italic;
+    color: rgba(166, 166, 166, 1);
+    font-family: Time new roman;
+    font-size: 14px;
+    line-height: 58px;
+    margin: 0;
+
+}
+
+.content_line {
+    text-align: left;
+    margin: 75px 0;
+}
+
+.content_line:first-child {
+    margin: 0;
+}
+
+.content_img {
+    float: left;
+}
+
+.content_info {
+    margin-left: 210px;
+}
+
+.info_header img {
+    vertical-align: middle;
+}
+
+.starting p {
+    margin: 10px 0;
+}
+
+.starting span {
+    font-size: 10px;
+}
+
+/*hết sec 2*/
+.person_img img {
+    height: 260px;
+    width: 223px;
+}
+
+.one_person {
+    float: left;
+    margin-right: 10px;
+}
+
+.one_person:last-child {
+    margin: 0;
+}
+
+.content_section_3 {
+    padding: 50px 0;
+}
+
+.info_person span {
+    color: #03a9f4;
+}
+
+/*hết sec 3*/
+/* sec 4 */
+#section_4 {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.one_client {
+    height: 401px;
+    width: 301px;
+    float: left;
+
+}
+
+.img_client img {
+    height: 168px;
+    border-radius: 101px;
+
+}
+
+.info_client p {
+    font-size: 13px;
+}
+
+.name_client {
+    font-family: Time new roman;
+    margin-top: 7px;
+}
+
+.name_client p {
+    font-size: 25px;
+}
+
+/*kết thúc sec 4 */
+/* sec 5*/
+.content_left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.content_right {
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+
+.img_content {
+    background-image: url("duck.jpg");
+    height: 167px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 230px;
+    float: left;
+}
+
+.content_event {
+    padding-top: 75px;
+}
+
+.list_content ul li {
+    list-style-type: square;
+    font-size: 19px;
+}
+
+.para_content span {
+    font-size: 19px;
+}
+
+/*két thúc sec 5*/
+/* section 6*/
+#section_6 {
+    background-image: url(https://static.ladipage.net/s1440x600/uploads/images/9f6ba6a6-4a36-4dce-b622-560fc12e0e69.jpg);
+    height: 472px;
+    background-color: rgba(255, 255, 255, 0.72);
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+#txt {
+    width: 420px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+#sub {
+    width: 425px;
+    height: 55px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register {
+    width: 418px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 65%;
+    bottom: 0;
+}
+/* kết thúc sec 6*/
+/*sec 7*/
+#section_7
+{
+    padding-top: 20px;
+}
+.brand
+{
+    height: 180px;
+    margin-top: 50px;
+    background-image: url(brand.PNG);
+    background-repeat: no-repeat;
+}
+/*kết thúc sec 7*/
+/*sec 8 */
+#section_8
+{
+    padding-top: 20px;
+    background-color: #fafafa;
+}
+.option
+{
+    height: 267px;
+    width: 274px;
+    float: left;
+    background-color: white;
+    margin-right: 20px;
+}
+.option_header
+{
+    width: 274px;
+    height: 60px;
+    background-color: lightgray;
+}
+.option_header p
+{
+    line-height: 60px;
+}
+.prime p{
+    font-size: 30px;
+    line-height: 60px;
+}
+.para p
+{
+    font-size: 13px;
+    
+}
+.para
+{
+    padding: 15px;
+}
+.option_vip
+{
+    width: 274px;
+    float: left;
+    background-color: white;
+    height: 300px;
+    margin-right: 20px;
+    background-color: #03a9f4;
+}
+.option_vip>.option_header
+{
+    background-color: #03a9f4;
+}
+.line_option hr
+{
+    width: 200px;
+}
+.line_option
+{
+    padding: 50px 0;
+}
+/*kết thúc sec 8 */
+/* footer */
+#footer_container
+{
+    height: 691px;
+    width: 100%;
+    background: url(https://static.ladipage.net/s1440x800/uploads/images/998d2561-fd1c-4bff-83da-a4e317e2c1ad.jpg);
+    padding-top: 60px;
+}
+.contact
+{
+    height: 75%;
+    width: 963px;
+    background-color: white;
+    margin-top: 50px;
+}
+.contact_info
+{
+    height: 100%;
+    text-align: left;
+    width: 29%;
+    margin-left: 50px;
+}
+.adr img
+{
+    vertical-align: middle;
+}
+.connect
+{
+    margin-top: 30px;
+}
+.connect p
+{
+    font-size: 25px;
+}
+.connect img 
+{
+    margin-right: 20px;
+}

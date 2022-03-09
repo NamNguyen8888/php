@@ -1,0 +1,121 @@
+<html>
+    <html lang="en">
+    <head>
+        <title>Dang ki</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+        <!-- Gán link  style css -->
+        <link rel="stylesheet" href="Dangki.css">
+        
+    </head>
+    <body>
+        <div class="content">
+            <form id = "form_1">
+                <h1>Đăng kí</h1>
+                <div class="form-field">
+                    <i class="fas fa-user"></i>
+                    <input id= "fullname" type="text" placeholder="Username" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-field">
+                    <i class="fas fa-lock"></i>
+                    <input id = "password" type="password" placeholder="Password" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-field">
+                    <i class="fas fa-lock"></i>
+                    <input id = "comfirm_password" type="password" placeholder="Enter the password " class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-field">
+                    <i class="fas fa-user"></i>
+                    <input id = "email" type="text" placeholder="Gmail" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <p>
+                <div class="form-radio" id = "gioi_tinh">
+                    <label>
+                    
+                        <input type="radio" name="gioitinh" id="nam"> Nam
+                
+                    </label>
+                    <label>
+                        
+                        <input type="radio" name="gioitinh" id="nu"> Nữ
+                    </label>
+                    <br>
+                    <span class="form-message_gioitinh"></span>
+                </div>
+                </p>
+                <p>
+                <div class="Nam" id = "select_date">
+                  <div>Ngày/Tháng/Năm</div>
+                  <select name="day" class = "day">
+                    <option value="Ngay1">Ngày 1</option>
+                    <option value="Ngay2">Ngày 2</option>
+                    <option value="Ngay3">Ngày 3</option>
+                    <option value="Ngay4">Ngày 4</option>
+                    <option value="Ngay5">Ngày 5</option>
+                    <option value="Ngay6">Ngày 6</option>
+                    <option value="Ngay7">Ngày 7</option>
+                    <option value="Ngay8">Ngày 8</option>
+                    <option value="Ngay9">Ngày 9</option>
+                    <option value="Ngay10">Ngày 10</option>
+                    <option value="Ngay11">Ngày 11</option>
+                    <option value="Ngay12">Ngày 12</option>
+                    <option value="Ngay13">Ngày 13</option>
+                    <option value="Ngay14">Ngày 14</option>
+                    <option value="Ngay15">Ngày 15</option>
+                    <option value="Ngay16">Ngày 16</option>
+                </select>
+                <select name="month">
+                    <option value="thang1">Tháng 1</option>
+                    <option value="thang2">Tháng 2</option>
+                    <option value="thang3">Tháng 3</option>
+                    <option value="thang4">Tháng 4</option>
+                    <option value="thang5">Tháng 5</option>
+                    <option value="thang6">Tháng 6</option>
+                    <option value="thang7">Tháng 7</option>
+                    <option value="thang8">Tháng 8</option>
+                    <option value="thang9">Tháng 9</option>
+                    <option value="thang10">Tháng 10</option>
+                    <option value="thang11">Tháng 11</option>
+                    <option value="thang12">Tháng 12</option>
+                
+                </select>
+                <select name="year">
+                    <option value="nam2000">Năm 2000</option>
+                    <option value="nam2001">Năm 2001</option>
+                    <option value="nam2002">Năm 2002</option>
+                    <option value="nam2003">Năm 2003</option>
+                    <option value="nam2004">Năm 2004</option>
+                
+                </select>
+                <span class="form-message_select"></span>
+            </p>
+            
+            </form>
+            <p>
+            <button id = "btn" type ="button" onclick="CheckState()">Đăng kí</button>
+            </p>
+        </div>
+        <script src="Dangki.js"></script>
+        <script>
+            validator(
+                {
+                    form  : '#form_1',
+                    erroMess : '.form-message',
+                    rules :[
+                        validator.isRequired('#fullname','Vui lòng nhập tên đăng nhập'),
+                        validator.isPassword('#password',6),
+                        validator.isComfirm('#comfirm_password',function(){
+                          return document.querySelector('#form_1 #password').value ;},'Mật khẩu nhập lại không chính xác'),
+                        validator.isEmail('#email'),
+                       
+                    ]
+                }
+            )
+
+        </script>
+    </body>

@@ -1,0 +1,56 @@
+﻿
+
+/*tìm kiếm */
+.header__search {
+    height: 40px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    align-items: center;
+}
+
+.header__search-input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    padding: 0 16px;
+    border-radius: 3px;
+}
+
+.header__search-input-wrap {
+    height: 40px;
+    width: 750px;
+}
+
+.header__search-btn {
+    background-color: var(--primary-color);
+    border: none;
+    height: 34px;
+    width: 60px;
+    margin-top: -50px;
+    margin-left: 750px;
+    border-radius: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+
+/*trang chi tiết sản phẩm*/
+.chitietsanpham {
+    margin-left:2px;
+    margin-bottom: 20px;
+    width: 1150px;
+    background-color: rgb(243, 241, 241);
+}
+
+.themvaogio:hover {
+    cursor: pointer;
+    background-color: #FF9933;
+}
+
+.muangay:hover {
+    cursor: pointer;
+    background-color: #f67559;
+}

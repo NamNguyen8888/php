@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Chettan 2", cursive;
+
+}
+#Anh1{
+    background: url(poundcake.PNG) no-repeat;
+    width: 600px;
+    height: 450px;
+    border-radius: 80px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+body{
+    background: bisque;
+    width: 600px;
+    height: 700px;
+}
+.Text{
+    position: relative;
+    border: 2px solid ivory;
+    width: 484px;
+    height: 400px;
+    left: 730px;
+    top: -400px;
+    border-radius: 20px;
+    background: ivory;
+}
+#Text1{
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    font-size: 30px;
+    color: crimson;
+}
+#Text2{
+    position: absolute;
+    top: 65px;
+    left: 175px;
+}
+hr{
+    position: relative;
+    top: 90px;
+    width: 200px;
+    left: 157px;
+    background: aqua;
+}
+#text3{
+    position: absolute;
+    top: 120px;
+    font-size: 20px;
+    color: brown;
+    left: 30px;
+}
+#Soluong{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+#btn{
+    position: absolute;
+    top: 215px;
+    left: 270px;
+    width: 85px;
+    height: 30px;
+    background: cornflowerblue;
+    border: 1px;
+    border-radius: 10px;
+}
+#thanhtoan{
+    position: absolute;
+    top: 275px;
+    left: 30px;
+    font-size: 20px;
+}
+#btn1{
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    width: 160px;
+    height: 36px;
+    background: aqua;
+    border-radius: 10px;
+}
+#btn2{
+    position: absolute;
+    top: 330px;
+    left: 285px;
+    width: 128px;
+    height: 36px;
+    background: palevioletred;
+    border-radius: 10px;
+}
+#btn:hover{
+    background: transparent;
+    color: orchid;
+    border: 2px solid orchid;
+    cursor: pointer;
+}
+#btn1:hover{
+    background: transparent;
+    color: royalblue;
+    border: 2px solid orchid;
+    cursor: pointer;
+}
+#btn2:hover{
+    background: transparent;
+    color: red;
+    border: 2px solid orchid;
+    cursor: pointer;
+}
+.Text1{
+    position: relative;
+    top: -350px;
+    border: 2px solid aliceblue;
+    width: 1200px;
+    left: 30px;
+    height: 290px;
+    border-radius: 20px;
+    background: aliceblue;
+}
+#text4{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 20px;
+    color: blueviolet;
+}
+h1{
+    position: absolute;
+    left: 40px;
+    font-size: 20px;
+    top: 10px;
+    color: blueviolet;
+}
+ul{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+li{
+    position: relative;
+    height: 35px;
+    font-size: 18px;
+    list-style: none;
+}

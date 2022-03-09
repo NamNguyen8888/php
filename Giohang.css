@@ -1,0 +1,191 @@
+body{
+    padding: 50px;
+}
+.Text{
+    position: relative;
+    top: -35px;
+    font-size: 20px;
+    border: 2px solid;
+    width: 340px;
+    height: 300px;
+    left: -15px;
+    border-radius: 30px;
+    background: antiquewhite;
+}
+h3{
+    position: absolute;
+    left: 90px;
+    color: red;
+}
+#sanpham{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+#Soluong{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+#Gia{
+    position: absolute;
+    top: 110px;
+    left: 28px;
+}
+
+#thanhtoan{
+    position: absolute;
+    top: 245px;
+    left: 30px;
+}
+.thongtin{
+    position: relative;
+    border: 2px solid;
+    top: 320px;
+    height: 130px;
+    border-radius: 10px;
+   
+}
+#thongtin{
+    position: absolute;
+    left: 30px;
+    color: red;
+}
+hr{
+    position: relative;
+    top: 12px;
+    width: 75px;
+    right: 100px;
+    background: black;
+    height: 1px;
+}
+button{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 70px;
+    background: cornflowerblue;
+    height: 30px;
+    border-radius: 5px;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid ;
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.Anh{
+    position: absolute;
+    border: 2px solid antiquewhite;
+    height: 540px;
+    width: 700px;
+    border-radius: 20px;
+    left: 500px;
+    top: 20px;
+
+}
+.Anh1{
+    background: url(BanhPoundcake.PNG) no-repeat;
+    width: 280px;
+    height: 168px;
+    position: absolute;
+    right: 380px;
+    top: 80px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+
+#Text{
+    position: absolute;
+    top: 255px;
+    font-size: 20px;
+    left: 115px;
+    color: black;
+}
+#Text1{
+    position: absolute;
+    top: 275px;
+    font-size: 17px;
+    left: 122px;
+    color: burlywood;
+}
+.Anh3{
+    background: url(BanhTiramisu.PNG) no-repeat;
+    width: 280px;
+    height: 168px;
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+#Text2{
+    position: absolute;
+    top: 255px;
+    font-size: 20px;
+    left: 455px;
+    color: black;
+}
+#Text3{
+    position: absolute;
+    top: 275px;
+    font-size: 17px;
+    left: 466px;
+    color: burlywood;
+}
+
+h4{
+    position: absolute;
+    left: 240px;
+    font-size: 20px;
+    color: blueviolet;
+}
+.Anh5{
+    background: url(Banhcheesecake.PNG) no-repeat;
+    width: 280px;
+    height: 168px;
+    position: absolute;
+    right: 48px;
+    top: 305px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+#Text4{
+    position: absolute;
+    top: 480px;
+    font-size: 20px;
+    left: 455px;
+    color: black;
+}
+#Text5{
+    position: absolute;
+    top: 500px;
+    font-size: 17px;
+    left: 466px;
+    color: burlywood;
+}
+.Sale1{
+    background: url(BanhCroissant.PNG);
+    width: 280px;
+    height: 168px;
+    position: absolute;
+    right: 375px;
+    top: 305px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+#Text6{
+    position: absolute;
+    top: 480px;
+    font-size: 20px;
+    left: 115px;
+    color: black;
+}
+#Text7{
+    position: absolute;
+    top: 500px;
+    font-size: 17px;
+    left: 125px;
+    color: burlywood;
+}

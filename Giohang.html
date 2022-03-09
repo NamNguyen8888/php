@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="Giohang.css">
+    <script>
+        var products=[];
+        function Tinh(){
+            var x={};
+            x.title=document.getElementById("title").value;
+            x.price=document.getElementById("price").value;
+            x.sl=document.getElementById("sl").value;
+            x.tt=document.getElementById("tt").innerText= Number(x.sl)* Number(x.price);
+            products.push(x);
+            //tạo thẻ điv vào đưa vào thẻ body
+            var iDiv=document.createElement("div");
+            iDiv.id=products.length;
+            document.getElementsByTagName("body")[0].appendChild(iDiv);
+            var element=document.getElementById(products.length);
+            //Tạo Span và add vaod div
+            var span = document.createElement("span");
+            var textspan= document.createTextNode("Title: " +x.title+"-----");
+            span.appendChild(textspan);
+            element.appendChild(span);
+            //Tạo span và add vào div
+            var span = document.createElement("span");
+            var textspan= document.createTextNode("Thanhtoan: " +x.tt+"vnđ");
+            span.appendChild(textspan);
+            element.appendChild(span);
+            
+        }
+    </script>
+</head>
+<body>
+    <p><div class="Text">
+        <div>
+            <h3>Thông tin giỏ hàng</h3>
+        </div>
+        <div id="sanpham">
+           Sản phẩm: <input id="title" type="text"/>
+        </div>
+        <div id="Gia">
+           Đơn Giá: <input type="number" id="price"/>
+        </div>
+        <div id="Soluong">
+            Số lượng: <input type="number" id="sl"/>
+        </div>
+        
+        <button id="btn" onclick="Tinh()">Tính</button>
+        <div id="thanhtoan">
+            Thành tiền:  <label id="tt"></label> VNĐ
+        </div>
+        <div class="thongtin">
+            <div id="thongtin"><b>Giỏ hàng:</b> </div>
+            <hr>
+        </div>
+       
+    </div></p>
+    <div class="Anh">
+        <h4>THÔNG TIN SẢN PHẨM</h4>
+        <div class="Anh1"> </div>
+        <div id="Text">Bánh Pancake </div> 
+        <div id="Text1">Giá: 89.000đ</div>
+        <div class="Anh3"> </div>
+        <div id="Text2">Bánh Tiramisu </div> 
+        <div id="Text3">Giá: 99.000đ</div>
+        <div class="Anh5"> </div>
+        <div id="Text4">Bánh Cheesecake </div> 
+        <div id="Text5">Giá: 79.000đ</div>
+        <div class="Sale1"> </div>
+        <div id="Text6">Bánh Croissant</div> 
+        <div id="Text7">Giá: 23.000đ</div>
+        
+    </div>
+    
+</body>
+</html>

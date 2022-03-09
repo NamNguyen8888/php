@@ -1,0 +1,13 @@
+.Anh{
+    background: url("bx.PNG") no-repeat;
+    width: 1000px;
+    height: 500px;
+}
+#text{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: 75px;
+    color: hotpink;
+    font-style: italic;
+}

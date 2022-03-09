@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Dang nhap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+        <!-- Gán link  style css -->
+        <link rel="stylesheet" href="Dangnhap.css">
+    </head>
+    
+    <script>
+        function validateForm() {
+          var x = document.forms["myForm"]["taikhoan"].value;
+          if (x == "") {
+            alert("Vui long nhập tên tài khoản");
+            return false;
+          }
+          var x = document.forms["myForm"]["matkhau"].value;
+          if (x == "") {
+            alert("Vui lòng nhập mật khẩu");
+            return false;
+          }
+          else{
+            alert("Đăng nhập thành công");
+            return false;
+          }
+        }
+       
+        
+    </script>
+</head> 
+    <body >
+        <div class="container">
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <h1>Đăng nhập</h1>
+                <div class="form-field">
+                    <i class="fas fa-user"></i>
+                    <input type="Text" placeholder="Username" name="taikhoan" id="tk">
+
+
+                </div>
+                <div class="form-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" name="matkhau" id="mk">
+                </div>
+                <button>Đăng nhập</button>
+                
+            </form>
+
+        </div>
+    </body>
+</html>
+</html>

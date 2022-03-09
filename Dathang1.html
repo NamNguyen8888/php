@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dathang1.css">
+    <title>Đặt hàng</title>
+    <script>
+        var products=[];
+         function Tinh(){
+            var x={};
+            x.sl=document.getElementById("sl").value;
+            x.tt=document.getElementById("tt").innerText= Number(x.sl)* Number(89000);
+            x.tt1=document.getElementById("tt1").innerText= Number(x.sl)* Number(89000)+ Number(30000);
+            products.push(x);
+            //tạo thẻ điv vào đưa vào thẻ body
+            var iDiv=document.createElement("div");
+            iDiv.id=products.length;
+            document.getElementsByTagName("body")[0].appendChild(iDiv);
+            var element=document.getElementById(products.length);       
+        }
+    </script>
+</head>
+<body>
+    <div id="Anh1"></div>
+    <div class="Text">
+        <div id="Text1">Bánh Pancake</div>
+        <div id="Text2">Mã sản phẩm: PH0045</div>
+        <hr  >      
+        <div id="text3">Giá:89000đ</div>     
+        <div id="Soluong">
+            Số lượng: <input type="number" id="sl"/>
+        </div>
+        <button id="btn" onclick="Tinh()">Thành tiền</button>
+        <div id="thanhtien">
+            Thành tiền: <label id="tt"></label> VNĐ
+        </div>
+        <div id="diachi">
+            Địa chỉ: <input id="title" type="text"/>
+         </div>
+         <div id="thanhtoan">
+            Thành toán(Ship 30.000đ):  <label id="tt1"></label> VNĐ
+        </div>
+        <div class="form-radio">
+            <label>
+              
+                <input type="radio" name="Chon" id="tt2"> Nhận hàng thanh toán
+           
+            </label>
+            <label>
+                
+                <input type="radio" name="Chon" id="tt3"> Thanh toán online
+            </label>
+        </div>
+        <button id="btn2">Mua hàng</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,194 @@
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+#Anh{
+    background: url(Anhnen.PNG) no-repeat;
+    width: 335px;
+    height: 345px;
+    border-radius: 23px;
+    position: absolute;
+    left: 16px;
+    top: 30px;
+}
+h1{
+    position: absolute;
+    top: 35px;
+    left: 70px;
+}
+ul{
+    position: absolute;
+    top: 95px;
+    left: 100px;
+}
+li{
+    position: relative;
+    height: 30px;
+    font-size: 20px;
+}
+.Text1{
+    position: relative;
+    border: 2px solid;
+    width: 900px;
+    height: 760px;
+    left: 344px;
+    top: 30px;
+    border-radius: 20px;
+}
+.Anh1{
+    position: relative;
+    border: 2px solid;
+    width: 280px;
+    height: 280px;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
+}
+#Anh2{
+    background: url(trachanh.PNG) no-repeat;
+    width: 245px;
+    height: 185px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+h2{
+    position: relative;
+    left: 350px;
+    color: coral;
+    font-size: 30px;
+}
+#text2{
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    font-size: 18px;
+}
+#text3{
+    position: absolute;
+    top: 235px;
+    left: 84px;
+}
+#btn{
+    position: absolute;
+    top: 265px;
+    width: 100px;
+    height: 30px;
+    left: 30px;
+    border-radius: 5px;
+    background: aqua;
+}
+#btn1{
+    position: absolute;
+    top: 265px;
+    width: 80px;
+    height: 30px;
+    left: 150px;
+    border-radius: 5px;
+    background: crimson;
+    color: wheat;
+}
+.Anh3{
+    position: relative;
+    border: 2px solid;
+    width: 280px;
+    height: 280px;
+    top: -275px;
+    left: 305px;
+    border-radius: 20px;
+}
+#Anh4{
+    background: url(trachhoadb.PNG) no-repeat;
+    width: 245px;
+    height: 185px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+.Anh5{
+    position: relative;
+    border: 2px solid;
+    width: 280px;
+    height: 280px;
+    top: -560px;
+    left: 602px;
+    border-radius: 20px;
+}
+#Anh6{
+    background: url(tradao.PNG) no-repeat;
+    width: 245px;
+    height: 185px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+.Anh7{
+    position: relative;
+    border: 2px solid;
+    width: 280px;
+    height: 280px;
+    top: -500px;
+    left: 602px;
+    border-radius: 20px;
+}
+#Anh8{
+    background: url(tranchaudd.PNG) no-repeat;
+    width: 245px;
+    height: 185px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+.Anh9{
+    position: relative;
+    border: 2px solid;
+    width: 280px;
+    height: 280px;
+    top: -785px;
+    left: 305px;
+    border-radius: 20px;
+}
+#Anh10{
+    background: url(trasua2n.PNG) no-repeat;
+    width: 245px;
+    height: 185px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+.Anh11{
+    position: relative;
+    border: 2px solid;
+    width: 280px;
+    height: 280px;
+    top: -1070px;
+    left: 10px;
+    border-radius: 20px;
+}
+#Anh12{
+    background: url(Trasuavq.PNG) no-repeat;
+    width: 245px;
+    height: 185px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+#btn:hover{
+    background:aquamarine;
+    color: blueviolet;
+    cursor: pointer;
+}
+#btn1:hover{
+    background:blanchedalmond;
+    color: red;
+    cursor: pointer;
+}
